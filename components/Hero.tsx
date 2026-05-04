@@ -2,18 +2,19 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import profile from "../assets/leo.png";
+import { Variants } from "framer-motion";
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.12 } },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 60 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: "easeOut" as const },
   },
 };
 
