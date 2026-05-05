@@ -20,8 +20,8 @@ const mono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uthaya Kumar — Creative Designer & Developer",
-  description: "UX leader · design thinker · product designer.",
+  title: "Leo Das —> Creative Designer & Developer",
+  description: "UI & UX  · design thinker · product designer.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
